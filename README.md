@@ -1,98 +1,223 @@
-# Stitch-and-Crafts-by-Wolves
+# FLOW
 
-## Purpose: Live Website
+A static promotional website for showcasing handcrafted products, creative services, and completed work.
 
-live site: [https://swartzcraft.github.io/Stitch-and-Crafts-by-Wolves/](https://swartzcraft.github.io/Stitch-and-Crafts-by-Wolves/)
+> **Project Status:** Active Development  
+> **Hosting:** GitHub Pages  
+> **Business Name:** Subject to Change
 
-## About this project
+## Live Website
 
-This is a static website hosted on GitHub pages, featuring:
-- responsive design (in development) with pastel color scheme (requested by stakeholders)
+The current development version is available through GitHub Pages:
+
+https://swartzcraft.github.io/Stitch-and-Crafts-by-Wolves/
+
+## About the Project
+
+FLOW is a lightweight static website designed to provide a central advertising and portfolio hub for a small craft business.
+
+The website is intended to:
+
+- Present available services
+- Showcase completed projects through an image gallery
+- Introduce the business and its team
+- Provide business contact information
+- Allow prospective customers to initiate contact through email or telephone
+- Maintain a responsive design for desktop and mobile devices
+
+The site is intentionally designed without a server-side application or database. GitHub Pages provides static hosting, allowing the website to remain free to host and maintain.
+
+The visual design currently uses a pastel color palette requested by project stakeholders.
+
+## Current Features
+
 - Home page with service overview
-- About page with business story (pending) and team profiles (pending)
-- Gallery page with filterable (complete) project portfolio (pending images)
-- Contact page with business information (not provided yet) and downloadable order form (pending)
+- Responsive layout under development
+- About section
+- Team profile structure
+- Filterable project gallery
+- Contact section
+- Email and telephone link support
+- Mobile navigation
+- GitHub Pages deployment
+
+Some content remains populated with development placeholders while business information and production assets are finalized.
 
 ## Built With
 
-- **HTML5** - for structure and content
-- **CSS3** - Styling and responsive design
+- **HTML5** — semantic structure and website content
+- **CSS3** — visual design, layout, and responsive behavior
+- **JavaScript** — navigation, gallery filtering, and interactive behavior
+- **GitHub Pages** — static website hosting
+- **Git/GitHub** — version control and repository management
 
-## Security Features
+No front-end framework or server-side application is currently required.
 
-##Project Structure
+## Project Structure
 
-## How to update
+Planned repository organization:
 
-##What to update
+```text
+Stitch-and-Crafts-by-Wolves/
+├── index.html
+├── css/
+│   └── styles.css
+├── js/
+│   └── main.js
+├── images/
+│   ├── gallery/
+│   ├── team/
+│   └── branding/
+├── documents/
+└── README.md
+```
 
-- [] Business contact information (email, phone, hours)
-- [] Team member names, roles, and bios
-- [] Team member photos
-- [] Gallery images (replace placeholder images)
-- [] Project descriptions in gallery
-- [] Business story on About page
-- [] PDF order form
-- [] Navigation functions
-- [] Mobile device navigation functions
-- [] Consider a dark mode variation
+The structure may change as development continues.
 
-## Code comments
+## Development Priorities
 
-The code includes comments (almost for every line) to asssit the site maintainers and aid non-programmers in understanding each section and its functions.
+- [ ] Finalize business contact information
+- [ ] Add team member names, roles, and biographies
+- [ ] Replace placeholder team photographs
+- [ ] Replace gallery placeholders with production images
+- [ ] Finalize gallery project descriptions
+- [ ] Complete the business story
+- [ ] Determine whether a downloadable order form is required
+- [ ] Refine desktop navigation
+- [ ] Refine mobile navigation
+- [ ] Improve accessibility and keyboard navigation
+- [ ] Optimize images and page performance
+- [ ] Separate production CSS and JavaScript from `index.html`
+- [ ] Complete responsive-design testing
+- [ ] Review security configuration
+- [ ] Consider optional dark-mode support
+- [ ] Finalize business/site branding
+- [ ] Update repository name and URL after branding is finalized
+
+## Security
+
+FLOW is designed as a static informational website and does not currently require:
+
+- User accounts or authentication
+- A customer database
+- Payment processing
+- Server-side form processing
+- Storage of customer information
+
+Development should preserve this limited attack surface whenever practical.
+
+### Security Practices
+
+When modifying the website:
+
+- Never commit passwords, API keys, tokens, credentials, or other secrets.
+- Never publish private customer information.
+- Do not publish personal residential addresses.
+- Use dedicated business contact information rather than personal contact information.
+- Use HTTPS resources.
+- Minimize third-party scripts and dependencies.
+- Validate external links before deployment.
+- Avoid inserting untrusted content into the DOM as HTML.
+- Keep dependencies to a minimum.
+- Review external resources before adding them to the website.
+
+Sensitive transactions, authentication, payment information, and private customer information should not be handled directly by this static website.
+
+## Accessibility
+
+Development should work toward accessible interaction and content, including:
+
+- Semantic HTML elements
+- Descriptive alternative text for meaningful images
+- Keyboard-accessible navigation
+- Visible keyboard focus indicators
+- Sufficient text/background contrast
+- Appropriate heading hierarchy
+- Accessible mobile navigation
+- Reduced reliance on hover-only interactions
+
+Accessibility should be reviewed as production content replaces development placeholders.
+
+## Code Documentation
+
+Source code should contain comments where they clarify architecture, behavior, configuration, or non-obvious implementation decisions.
+
+Comments should explain **why** code behaves a particular way when that reasoning is not apparent from the code itself. Routine HTML and CSS should remain readable without requiring line-by-line comments.
+
+## Updating the Website
+
+Content updates generally require:
+
+1. Modify the appropriate HTML, CSS, JavaScript, or asset files.
+2. Test the changes locally.
+3. Verify desktop and mobile behavior.
+4. Commit the changes to Git.
+5. Push the commit to GitHub.
+6. Allow GitHub Pages to deploy the updated site.
+7. Verify the production deployment.
 
 ## Troubleshooting
 
-### Website not Updating?
-- wait 2-3 minutes after commiting changes
-- Clear browser cache (Ctrl+F5 or Cmd+Shift+R)
-- Check that changes were actually commited
+### Website Not Updating
 
-### Images Not Showing?
-- Verify image filenames match (case-sensitive)
-- Check that images are uiploaded to the repository
-- Ensure file extensions are correct (.jpg, .png, etc.)
+- Confirm that the changes were committed and pushed successfully.
+- Check the repository's GitHub Pages deployment status.
+- Allow time for the deployment to complete.
+- Refresh the page after deployment.
+- If necessary, perform a hard refresh to eliminate locally cached resources.
 
-### Navigation Not Working?
-- The Javascript should be embedded in index.html
-- Don't separate it into different files
+### Images Not Showing
 
-##Resources
+- Verify that the image exists in the repository.
+- Verify the image path in the HTML or CSS.
+- Confirm that the filename and capitalization match exactly.
+- Confirm that the file extension is correct.
+- Check the browser developer console for failed resource requests.
 
-- [MDN Web Docs] (https://developer.mozilla.org/) - Web Dev
-- [W3Schools](https://www.w3schools.com/) - Beginner-friendly
-- [GitHub Pages Documentation] (https://docs.github.com/en/pages) - GitHub how-to
+### Navigation Not Working
 
-## Security Best Practices
+- Verify that the JavaScript file is loading successfully.
+- Check the browser developer console for JavaScript errors.
+- Verify that HTML IDs, classes, and JavaScript selectors agree.
+- Confirm that event listeners are attached to the intended elements.
+- Test desktop and mobile navigation independently.
 
-When updating content:
-- Use business email (not personal)
-- Use business phone / google voice number
-- Never include passwords or sensitive data
-- Don't put personal home addresses in the code
-- Test all links before sharing
+## Resources
 
-## Contact
-
-For questions about this website or to request updates, contact:
-- **Repository Owner:**
-- **Business Owner:**
-- **Business Email:**
-
-## License
-
-This is a private business website. All rights reserved.
+- [MDN Web Docs](https://developer.mozilla.org/) — HTML, CSS, JavaScript, accessibility, and web-platform reference
+- [GitHub Pages Documentation](https://docs.github.com/en/pages) — deployment and GitHub Pages configuration
+- [W3C Web Standards](https://www.w3.org/standards/) — web standards and accessibility resources
 
 ## Future Enhancements
 
-Potential improvements for the future:
-- Add custome domain name
-- Integrate e-commerce platform (shopify, Square, etc.)
-- Add customer testimonials section (Reviews)
-- Add blog / news section
-- Integrate social media feeds
+Potential future capabilities include:
+
+- Custom domain
+- Dark-mode support
+- Customer testimonials or reviews
+- Social-media links
+- Additional gallery functionality
+- News or business-update section
+- Integration with an external e-commerce platform if required
+
+E-commerce functionality would remain external to the static GitHub Pages architecture unless the project's requirements substantially change.
+
+## Contact
+
+For website maintenance or development questions:
+
+- **Repository Owner:** SwartzCraft
+- **Business Owner:** Pending
+- **Business Email:** Pending
+
+## License
+
+All rights reserved.
+
+Website content, branding, photographs, artwork, and other business assets may not be reused without permission from their respective owners.
 
 ---
 
-**Last updated:** 20251026
-**Business Name Subject to Change** - This website template is designed to be easily rebranded when the business name changes.
+**Last Updated:** September 30, 2026
+
+**Development Note:** The business name and branding are subject to change. The website is being developed so that branding can be replaced without requiring a complete redesign.
